@@ -98,7 +98,7 @@ const DashboardLayout = ({children}) => {
             <h1>Welcome Back! {role} </h1>
           </div>
           <div className="dashboardLayout-content">
-           {children}
+          {children}
           </div>
         </div>
       </div>
