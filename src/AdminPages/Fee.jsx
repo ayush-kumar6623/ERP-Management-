@@ -11,8 +11,7 @@ const Fee = () => {
   
 
   const [allfee,setAllFee]=useState([])
-  const {searchedfee, setSearchedFee}=useState(null)
-
+const [searchedfee, setSearchedFee] = useState([])
   const fetchStudents = async () => {
     try {
       const res = await axios.get('/Data/Student.json')
@@ -24,6 +23,12 @@ const Fee = () => {
       console.log(error);
 
     }
+
+    const fee =allfee.filter((f)=>{
+      return f.RegNo===students?.RegNo
+    })
+
+    setSearchedFee(fee)
 
 
 
@@ -41,13 +46,9 @@ const Fee = () => {
       }
     }
 
-    const fee=allfee.filter((f)=>{
-      return f.RegNo===student?.RegNo
-    })
-    console.log(fee);
     
 
-    useState(() => {
+    useEffact(() => {
       fetchStudents()
     }, [])
   }
@@ -71,6 +72,32 @@ const Fee = () => {
             <input type="text" placeholder='search By Name,Email,number' onChange={(e)=>setSearch(e.target)} />
             <button onClick={handleSearch}>Search</button>
           </div>
+{/* 
+<div className="fee-table">
+  <Table>
+    <thead>
+      <tr>
+        <th>Reg No</th>
+        <th>Fee Name</th>
+        <th>Fee Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        searchedfee.map((f)=>{
+          <tr>
+            <td>{f.RegNo}</td>
+            <td>{f.FeeType}</td>
+            <td>{f.PaymentType}({f?.FeeMonth})</td>
+            <td>{f.PaidAmount}</td>
+            <td>{f.Amount-f.PaidAmount}</td>
+          </tr>
+        })
+      } 
+    </tbody>
+  </Table>
+</div> */}
+
           <div className="fee-collect-details">
 
           
