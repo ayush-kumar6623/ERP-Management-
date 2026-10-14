@@ -2,11 +2,11 @@
   { 
     "_id": 1,
     "RegNo": "RNS-001",
-    "Name": "Ayush ",
-    "PhoneNumber": "9876543210",
-    "Email": "ayush@gmail.com",
+    "Name": "ashu ",
+    "PhoneNumber": "6307275074",
+    "Email": "ashu@gmail.com",
     "DOB": "29-02-2004",
-    "Gender": "Male",
+    "Gender": "Female",
     "AdharNumber": null,
     "FatherName": "Vijendra Paswan",
     "MotherName": "Anju Paswan",
@@ -21,9 +21,9 @@
   { 
     "_id": 2,
     "RegNo": "RNS-002",
-    "Name": "Ashu ",
-    "PhoneNumber": "9876543210",
-    "Email": "ashu@gmail.com",
+    "Name": "Ayush ",
+    "PhoneNumber": "8115930084",
+    "Email": "ayush@gmail.com",
     "DOB": "15-06-2005",
     "Gender": "Male",
     "AdharNumber": null,
@@ -131,7 +131,7 @@
     "_id": 8,
     "RegNo": "RNS-008",
     "Name": "Rohit Kumar",
-    "PhoneNumber": "9345678120",
+    "PhoneNumber": "6307275072",
     "Email": "rohit.kumar@gmail.com",
     "DOB": "25-01-2004",
     "Gender": "Male",
@@ -360,23 +360,6 @@
     "LastClassTotalMarks": "442",
     "currentClass": "10",
     "photo": "/images/photo.jpeg"
-  },
-  {
-    "_id": 21,
-    "RegNo": "RNS-021",
-    "Name": "Shivani Dubey",
-    "PhoneNumber": "9156782340",
-    "Email": "shivani.dubey@gmail.com",
-    "DOB": "24-11-2007",
-    "Gender": "Female",
-    "AdharNumber": null,
-    "FatherName": "Ravi Dubey",
-    "MotherName": "Mamta Dubey",
-    "LastSchool": "Wisdom Public School",
-    "LastClass": "5",
-    "LastSchoolcode": "WPS121",
-    "LastClassTotalMarks": "401",
-    "currentClass": "6",
-    "photo": "/images/photo.jpeg"
   }
+ 
 ]
