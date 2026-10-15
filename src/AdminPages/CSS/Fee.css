@@ -91,3 +91,98 @@
 .fee-table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+
+/* Fee Details Section */
+.fee-section {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.fee-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Fee Box */
+.Fee-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Total Fee and Fee Type */
+.fee {
+    display: flex;
+    gap: 20px;
+}
+
+.total-fee,
+.fee-type {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Common Labels */
+.Fee-box label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields */
+.Fee-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.Fee-box input:disabled {
+    background-color: #f1f1f1;
+    color: #555;
+    cursor: not-allowed;
+}
+
+.Fee-box input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Individual Fields */
+.fee-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Collect Fee Button */
+.fee-action {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.fee-action button {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.fee-action button:hover {
+    background-color: #0056b3;
+}

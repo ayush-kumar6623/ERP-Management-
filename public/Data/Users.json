@@ -9,11 +9,20 @@
     },
     {
     "id":2,
-    "name":"Shalu",
+    "name":"Ayush",
     "email":"ashu@gmail.com",
     "otp":"5678",
     "role":"admin",
     "token":"asdfghjklqwertyndgvfjyevcjsrfgsh54678dschjvsdcv6ui@#$%^&*"
-
+    
+    },
+    {
+    "id":3,
+    "name":"Ankit",
+    "email":"ankit@gmail.com",
+    "otp":"12345",
+    "role":"teacher",
+    "token":"asdfghjklqwertyndgvfjyevcjsrfgsh54678v6ui@#$%^&*"
+    
     }
 ]
